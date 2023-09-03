@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+
+body{
+    background: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 35vh;
+    font-family: 'Kalam', cursive;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.heading{
+    margin-top: 5vh;
+    color: white;
+    font-size: 40px;
+}
+
+.input-container{
+    width: 100%;
+    text-align: center;
+}
+
+.input-field{
+    width: 25%;
+    height: 40px;
+    border: 1px solid #F7BE38;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+input:focus, button:focus{
+    outline: none
+}
+
+.btn-submit{
+    width: 5%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #F7BE38;
+    font-weight: bold;
+    position: absolute;
+    margin-left: -4%;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.hint{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.list-container{
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    color : #13243E;
+}
+
+.list{
+    width: 30%;
+    list-style-type: none;
+    border: 1px solid #828282;
+    margin-left: 33%;
+    text-align: start;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 25px;
+    color : #13243E;
+}
+.checked{
+    float: right;
+}
+
+.btn-reset{
+    width: 15%;
+    height: 5.8vh;
+    border-radius: 20px;
+    border: 1px solid #F7BE38;
+    background-color: #F7BE38;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer > a{
+    color: black;
+}

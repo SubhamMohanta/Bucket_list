@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">My 2023 Bucket List</h1>
+        <div class="input-container">
+            <input type="text" class="input-field" id="input-field" placeholder=" I want to ...">
+            <input type="submit" class="btn-submit" onclick="addValues()" value="Add" />
+        </div>
+        <div class="list-container" >
+            <h2>Here's what you gotta do this year</h2>
+            <div class="hint">
+                <p>The first think on your bucket list is to tick things of your <br>
+                bucket list. So, go ahead buddy 😜...</p>
+            </div>
+            <ul id="list-container">
+                <!-- Fill all your list elements  -->
+            </ul>
+        </div>
+        <button class="btn-reset" onclick="reset()">Reset Bucket List</button><br>
+    </div>
+    <div class="footer" >
+        Coded with 💛 by Subham
+    </div>
+    <script src="./app.js"></script>
